@@ -22,3 +22,6 @@ p.large {
 p.italic{
     font-style: italic;
 }
+rcorner {
+    border-radius: 25px;
+}
