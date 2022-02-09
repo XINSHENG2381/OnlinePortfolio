@@ -25,3 +25,8 @@ p.italic{
 rcorner {
     border-radius: 25px;
 }
+Project {
+    border: 5px outset rgb(150, 147, 147);
+    background-color: lightblue; 
+    text-align: center;
+  }
