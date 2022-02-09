@@ -1,7 +1,7 @@
 body {
     margin: 20px;
     color: black;
-    background: wheat;
+    background: white;
     /* text-align: center; */
     text-align:justify;
     font-family: 'Courier New', Courier, monospace;
@@ -25,8 +25,8 @@ p.italic{
 rcorner {
     border-radius: 25px;
 }
-Project {
+.Project {
     border: 5px outset rgb(150, 147, 147);
-    background-color: lightblue; 
-    text-align: center;
+    background-color: wheat; 
+    text-align: justify;
   }
