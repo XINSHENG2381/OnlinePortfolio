@@ -21,12 +21,6 @@ body {
     background-color: white;
     box-shadow: 0 15px 15px black, 0 10px 10px rgb(98, 150, 173);
 }
-/* p {
-    color: black;
-    text-align: justify;
-    font-style: italic;
-    font-size: small;
-  } */
 p.center {
     text-align: center;
 }
@@ -36,8 +30,11 @@ p.large {
 p.italic{
     font-style: italic;
 }
-rcorner {
-    border-radius: 25px;
+img.project{
+    height: 200px;
+    border: 1px white;
+    text-align: center;
+    border-radius: 20px;
 }
 .Project {
     border: 3px outset rgb(197, 214, 221);
