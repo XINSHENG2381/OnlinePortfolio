@@ -14,12 +14,12 @@ body {
 }
 .mainbody {
     width: 1000px;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 25px;
-    border-radius: 25px;
+    border-radius: 20px;
     box-sizing: border-box;
     background-color: white;
-    box-shadow: 0 15px 15px black, 0 10px 10px rgb(98, 150, 173);
+    box-shadow: 0 10px 10px black, 0 10px 10px rgb(98, 150, 173);
 }
 p.center {
     text-align: center;
