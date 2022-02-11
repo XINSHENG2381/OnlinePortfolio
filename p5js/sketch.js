@@ -7,6 +7,24 @@ let G=5;
 
 function setup() {
   createCanvas(1000,550);
+  resetSketch();
+  var button = createButton("reset");
+  button.mousePressed(resetSketch);
+  // background(0);
+  // let iniHeroPosX=random(width/3,2*width/3);
+  // let iniHeroPosY=random(50,100);
+  // hero=new Hero(iniHeroPosX,iniHeroPosY,0.5);
+  // earth=new Attractor(width/2,height,150,0,0,139);
+  // let x1=random(width);
+  // let x2=random(height);
+  // blackhole1=new Blackhole(x1,x2,50);
+  // blackhole2=new Blackhole(width-x1,height-x2,50);
+  
+  // for(i=0;i<6;i++){
+  //   planets[i]=new Attractor(random(width),random(50,height),random(10,60),random(0,255),random(0,255),random(0,255)); 
+  // } 
+}
+function resetSketch(){
   background(0);
   let iniHeroPosX=random(width/3,2*width/3);
   let iniHeroPosY=random(50,100);
@@ -21,7 +39,6 @@ function setup() {
     planets[i]=new Attractor(random(width),random(50,height),random(10,60),random(0,255),random(0,255),random(0,255)); 
   } 
 }
-
 function draw() {
   background(0,5);
   //background(0);
