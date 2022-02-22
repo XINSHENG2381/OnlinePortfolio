@@ -9,8 +9,24 @@ body {
 }
 .introimg{
     border-radius: 20px;
-    text-align:center;
-    height:300px;
+    /* text-align:center; */
+    float:left;
+    /* text-align:left; */
+    height: 220px;
+    margin: 1em 3em 1em 1em;
+}
+
+.intro{
+    /* text-align: justify; */
+    /* margin-left: 20px; */
+    border-bottom: 1px dashed black;
+    /* display: flex; */
+    /* flex-direction: */
+    /* margin: 10px auto; */
+}
+.introtext{
+    width: 900px;
+    text-align: justify;
 }
 
 .mainbody {
@@ -31,6 +47,9 @@ p.large {
 p.italic{
     font-style: italic;
 }
+p.white{
+    color:white;
+}
 img.project{
     height: 200px;
     border: 1px white;
@@ -38,8 +57,9 @@ img.project{
     border-radius: 20px;
 }
 .Project {
-    /* border: 3px outset white; */
-    border-radius: 25px;
+    /* border: 3px outset rgb(179, 188, 192); */
+    border-bottom: 1px dashed black;
+    /* border-radius: 25px; */
     padding-top: 10px;
     padding-right: 25px;
     padding-bottom: 10px;
