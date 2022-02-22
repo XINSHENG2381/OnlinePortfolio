@@ -38,7 +38,7 @@ img.project{
     border-radius: 20px;
 }
 .Project {
-    border: 3px outset rgb(197, 214, 221);
+    /* border: 3px outset white; */
     border-radius: 25px;
     padding-top: 10px;
     padding-right: 25px;
