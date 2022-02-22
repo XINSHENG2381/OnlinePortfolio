@@ -19,7 +19,7 @@ body {
 .intro{
     /* text-align: justify; */
     /* margin-left: 20px; */
-    border-bottom: 1px dashed black;
+    border-bottom: 1px solid gray;
     /* display: flex; */
     /* flex-direction: */
     /* margin: 10px auto; */
@@ -58,7 +58,7 @@ img.project{
 }
 .Project {
     /* border: 3px outset rgb(179, 188, 192); */
-    border-bottom: 1px dashed black;
+    border-bottom: 1px solid gray;
     /* border-radius: 25px; */
     padding-top: 10px;
     padding-right: 25px;
